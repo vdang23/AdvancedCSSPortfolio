@@ -13,7 +13,7 @@
     background: rgba(255, 0, 0, 0.171);
     color: #fff;
   }
-
+/*sets image of father and son at beach size, border, etc*/
   .top img {
     width: 40%;
     padding: 20px 20px 20px 20px;
@@ -31,10 +31,10 @@
     text-decoration: none;
     text-align: center;
   }
-
+/*boxes in a section wrap next to each other*/
   main {
       display: flex;
-      /* flex-wrap: wrap; */
+      flex-wrap: wrap; 
   }
 
   .My-Photo {
@@ -106,7 +106,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* Use flex-direction to stack the navbar, sidebar, and body */
+  /* Uses the flex-direction to stack the navbar and body */
   main,
   nav {
     flex-direction: column;
