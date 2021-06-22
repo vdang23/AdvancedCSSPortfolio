@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  header {
+    padding: 60px;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.171);
+    color: #fff;
+  }
+
+  .top img {
+    width: 40%;
+    padding: 20px 20px 20px 20px;
+    border-style: solid;
+    border-width: 5px;
+  }
+  nav {
+    display: flex;
+    background-color: #d8a47f;
+  }
+  
+  nav a {
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  main {
+      display: flex;
+      /* flex-wrap: wrap; */
+  }
+
+  .My-Photo {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+    justify-content: start;
+  }
+
+  .My-Photo img {
+      width: 100%;
+  }
+
+  .My-Work {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+    justify-content: center;
+  }
+
+  .My-Work img {
+      width: 95%;
+      height: 55%;
+  }
+
+  .Work1 {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+    justify-content: center;
+  }
+
+  .Work1 img {
+      width: 100%;
+      height: 78%;
+  }
+
+  .Work2 {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+    justify-content: center;
+  }
+
+  .Work2 img {
+      width: 50%;
+      height: 50%;
+  }
+
+  .Contact-Info {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+}
+
+  .Contact-Info img {
+    width: 95%;
+    height: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  main,
+  nav {
+    flex-direction: column;
+  }
+
